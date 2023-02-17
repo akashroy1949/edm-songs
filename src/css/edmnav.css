@@ -1,0 +1,87 @@
+.header{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+.products {
+    margin: 20px auto;
+    padding:50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: orange; */
+    border-radius: 5px;
+    position: relative;
+
+
+
+    background: rgba(105, 154, 185, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 20px dashed rgba(255, 255, 255, 0.3);
+}
+
+.prod-image {
+    max-width: 300px;
+    max-height: 300px;
+    width: 70%;
+    height: 70%;
+    display: block;
+    object-fit: cover;
+    margin: auto
+}
+
+.prod-card {
+    width: 300px;
+    height: 85%;
+    /* border: 10px solid black; */
+    padding: 10px;
+    margin: 40px 20px;
+    /* background-color: green; */
+    position: relative;
+
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.prod-details-card{
+    background: rgba(160, 158, 163, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);  
+    
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+}
+.prod-name{
+    font-weight: bolder;
+}
+
+.prod-artist-name{
+    font-size: medium;
+}
+
+.prod-genre{
+    font-weight: bold;
+}
+
+.prod-price{
+    font-weight: bold;
+}
+
+.button{
+    position: absolute;
+    display: block;
+}
+

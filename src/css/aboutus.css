@@ -1,0 +1,79 @@
+* {
+    font-family: 'Varela Round', sans-serif;
+
+
+}
+
+body {
+    scroll-behavior: smooth;
+    /* background-color: #FF9A8B; */
+    /* background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%); */
+    background-image: url(https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.outer-div {
+    /* margin: auto; */
+    /* padding: 10px 250px; */
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 5px;
+
+}
+
+.total-body {
+
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+    margin: 0 auto 14% auto;
+}
+
+.about-heading {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+p {
+    display: inline;
+    text-align: left;
+    margin: 20px;
+    font-size: 25px;
+}
+
+a {
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: azure;
+    text-decoration: underline;
+
+}
